@@ -1,0 +1,53 @@
+*{
+	margin=0%
+}
+
+.navbar a{
+       padding: 2%;
+}
+.navbar {
+	text-decoration: none;
+	font-size: 17px;
+	color:black ;
+	margin-left: 4%;
+	vertical-align: middle;
+}
+#signin{
+	background-color:#00baf2;
+	border-radius:25px;
+	color: white;
+	padding: 0.4% 0.7%;
+	margin-left: 8%;
+}
+.wallet{
+	background-color: #f6f6f6;
+	text-align: center;
+}
+.paytm{
+	margin-left: 45px;
+}
+.UPI{
+	font-size:24px ;
+    font-weight: normal;
+}
+.UPI p{
+	  font-style: serif;
+  
+}
+#app{
+	border-radius: 1px solid black;
+	width: 12%;
+	border-radius: 15px;
+	padding: 0.8%;
+	background-color: black;
+	color: white;
+    font-size: 17px;
+    margin-left: 4%;
+    margin-top: 3%s;
+}
+.sec2{
+	display: flex;
+	justify-content: space-between;
+	padding: 5% 0% 5% 5% ;
+	margin-top: ;
+}
