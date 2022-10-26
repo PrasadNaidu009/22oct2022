@@ -1,16 +1,24 @@
 *{
-	margin=0%
+	margin: 0%
 }
 
-.navbar a{
+.navbar {
        padding: 2%;
 }
-.navbar {
+.navbar a{
 	text-decoration: none;
 	font-size: 17px;
 	color:black ;
 	margin-left: 4%;
+	
+}
+
+.navbar img{
 	vertical-align: middle;
+
+}
+.logo{
+	margin: 0% 12% 0% 3%
 }
 #signin{
 	background-color:#00baf2;
@@ -18,36 +26,159 @@
 	color: white;
 	padding: 0.4% 0.7%;
 	margin-left: 8%;
-}
-.wallet{
-	background-color: #f6f6f6;
 	text-align: center;
 }
-.paytm{
-	margin-left: 45px;
+.paragraph{
+	background-color: rgba(239, 239, 239, 0.8);
+	font-size: 18px;
+	padding: 1%;
 }
-.UPI{
-	font-size:24px ;
-    font-weight: normal;
+.section2{
+	font-family: "Poppins";
+	display: flex;
+	justify-content: space-between;
+	padding: 7% 0% 5% 10%;
 }
-.UPI p{
-	  font-style: serif;
+.recharge{
+		margin-bottom: 5%;
+		font-size: 20px;
+}
+.bharat{
+	  font-size: 50px;
+	font-weight: bold;
   
 }
-#app{
-	border-radius: 1px solid black;
-	width: 12%;
-	border-radius: 15px;
-	padding: 0.8%;
+.download{
+	border: 1px solid black;
+	width: 50%;
+	border-radius: 27px;
+	padding: 1.7%;
 	background-color: black;
 	color: white;
     font-size: 17px;
     margin-left: 4%;
-    margin-top: 3%s;
+    margin-top: 10%;
+    text-align: center;
 }
-.sec2{
+.download:hover{
+	background-color: white;
+	color: black;
+}
+.icon i{
+	margin-left: 4%;
+}
+.image1{
+	margin-bottom: 6%;
+}
+.paybill{
+	  font-size: 35px;
+	  color: white;
+}
+.section3{
+	padding: 5% 10%;
+	background-color: #00adf2;
+}
+
+.payments{
 	display: flex;
 	justify-content: space-between;
-	padding: 5% 0% 5% 5% ;
-	margin-top: ;
+	font-weight: bold;
+	margin: 5% 0%;
+	text-decoration: none;
 }
+
+.payments a{
+	text-decoration: none;
+	color: white;
+}
+
+.bookandbuy{
+	  font-size: 35px;
+	  color: white;
+}
+.section4{
+	padding: 5% 10%;
+	background-color: #2b54a6;
+}
+.block{
+	display: flex;
+	justify-content: space-between;
+	font-weight: bold;
+	margin: 5% 0%;
+	text-decoration: none;
+}
+.block a{
+	text-decoration: none;
+	color: white;
+}
+.block a hover: {
+	background-color: ;
+
+}
+.section5{
+	background-color: rgba(239,239,239,0.6);
+	padding: 5% 14%;
+}
+.sec5div1{
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	padding: 9%;
+	margin-top: 5%;
+}
+.wallet{
+	display: flex;
+}
+.head{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: sans-serif;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+.para{
+	font-size: 18px;
+	margin-bottom: 10%;
+}
+.head1{
+	font-size: 50px;
+	font-family: sans-serif;
+
+}
+.section6{
+	background-color: rgba(239,239,239,0.6);
+	padding: 5% 14%;
+}
+.sec6div1{
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	padding: 9%;
+	margin-top: 5%;
+}
+.section7{
+	background-color: rgba(239,239,239,0.6);
+	padding: 5% 14%;
+}
+.sec7div1{
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	padding: 9%;
+	margin-top: 5%;
+}
+.learn:hover{
+	background-color: #00adf2 ;
+	color: white;
+	
+
+}
+.learn{
+	border :1px   #00adf2 ;
+	width: 25%; background-color:darkviolet;
+	border-radius: 25px;
+	padding: 2%;
+	text-align: center;
+
+color: white}
+
