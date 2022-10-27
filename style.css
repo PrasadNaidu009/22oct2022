@@ -1,5 +1,6 @@
 *{
-	margin: 0%
+	margin: 0%;
+
 }
 
 .navbar {
@@ -46,6 +47,7 @@
 .bharat{
 	  font-size: 50px;
 	font-weight: bold;
+	font-family: sans-serif;
   
 }
 .download{
@@ -133,12 +135,14 @@
 	font-size: 40px;
 	font-weight: bold;
 	font-family: sans-serif;
-	margin-top: 10%;
+	margin-top: 7%;
 	margin-bottom: 5%;
 }
 .para{
-	font-size: 18px;
+		font-size: 18px;
 	margin-bottom: 10%;
+	font-family: "Poppins";
+
 }
 .head1{
 	font-size: 50px;
@@ -175,10 +179,60 @@
 }
 .learn{
 	border :1px   #00adf2 ;
-	width: 25%; background-color:darkviolet;
+	width: 25%;
+       background-color: #043e7d;
 	border-radius: 25px;
-	padding: 2%;
+	padding:3.5%;
 	text-align: center;
+       color: white;
+       font-family: sans-serif;
+}
+.sec8div1{
 
-color: white}
+	display: flex;
+	padding: 3% 3% 0% 3%;
+}
+.hdfc{
+	background-color: white;
+	border-radius: 10px;
+	padding-top: 5%;
+	padding-right: 5%;
+	padding-left: 5%;
+	margin:5% 2% ;
+}
+.sbi{
+  margin-top: 13%;
+}
+.sec8div1 a{
+	text-decoration: none;
+	color: black;
+}
+.sec9div1{
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	padding: 7%;
+	
+}
+.sec9{
+	padding: 5% 9% 5% 7%;
+}
+.financial{
+	font-size: 50px;
+	font-family: sans-serif;
+	margin-left: 7%;
+}
+.sec10div1{
+	display: flex;
+	justify-content: space-between;
+	padding: 7%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.sec10{
+	background-image: url("images/back.png");
+	background-attachment: scroll;
+	background-position: center;
+	background-size: 100%;
+}
 
