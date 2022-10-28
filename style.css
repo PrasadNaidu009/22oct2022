@@ -1,5 +1,6 @@
 *{
 	margin: 0%;
+	border: 1px solid red;
 
 }
 
@@ -8,7 +9,7 @@
 }
 .navbar a{
 	text-decoration: none;
-	font-size: 17px;
+	font-size: 20px;
 	color:black ;
 	margin-left: 4%;
 	
@@ -31,7 +32,7 @@
 }
 .paragraph{
 	background-color: rgba(239, 239, 239, 0.8);
-	font-size: 18px;
+	font-size: 15px;
 	padding: 1%;
 }
 .section2{
@@ -42,23 +43,24 @@
 }
 .recharge{
 		margin-bottom: 5%;
+		margin-top: 3%;
 		font-size: 20px;
 }
 .bharat{
-	  font-size: 50px;
+	  font-size: 60px;
 	font-weight: bold;
 	font-family: sans-serif;
   
 }
 .download{
 	border: 1px solid black;
-	width: 50%;
-	border-radius: 27px;
+	width: 45%;
+	border-radius: 25px;
 	padding: 1.7%;
 	background-color: black;
 	color: white;
     font-size: 17px;
-    margin-left: 4%;
+    margin-left: 0%;
     margin-top: 10%;
     text-align: center;
 }
@@ -172,20 +174,19 @@
 	margin-top: 5%;
 }
 .learn:hover{
-	background-color: #00adf2 ;
-	color: white;
+	background-color: deepskyblue ;
 	
-
 }
 .learn{
 	border :1px   #00adf2 ;
 	width: 25%;
-       background-color: #043e7d;
+  background-color: #043e7d;
 	border-radius: 25px;
 	padding:3.5%;
 	text-align: center;
-       color: white;
-       font-family: sans-serif;
+  color: white;
+  font-family: sans-serif;
+  letter-spacing: 1.5px;
 }
 .sec8div1{
 
@@ -234,5 +235,57 @@
 	background-attachment: scroll;
 	background-position: center;
 	background-size: 100%;
+}.sec11{
+	padding: 5% 9% 5% 7%;
+}
+.sec11div1{
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	padding:7%;
+}
+.sec12div1{
+	display: flex;
+	justify-content: space-between;
+	padding: 5% 7% 6% 7%;
+
+	margin-right: 3%;
+}
+.sec12{
+	background-color:rgba(239,239,239,0.6); ;
+}
+.sec13{
+	background-color: white;
+	padding: 7% 11%;
+
+}
+.sec13div1{
+	 	display: flex;
+	justify-content: space-between;
+	background-color: rgba(239, 239, 239, 0.6);
+	padding: 9% 0% 5% 7%;
+	margin-top: 3%;
+
+	border-radius: 25px;
+}
+.accept{
+	 font-size: 40px;
+	font-weight: bold;
+	font-family: sans-serif;
+	margin-top: 18%;
+	margin-bottom: 5%;
 }
 
+
+
+@media (max-width: 420px){
+	.navbar a{
+		font-size: 3px;
+	}
+	.paragraph{
+		font-size: 10px;
+	}
+	.bharat{
+		font-size: 80%;
+	}
+}
